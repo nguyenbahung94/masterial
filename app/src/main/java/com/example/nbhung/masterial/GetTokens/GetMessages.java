@@ -23,7 +23,6 @@ import com.google.firebase.messaging.RemoteMessage;
 
 public class GetMessages extends FirebaseMessagingService {
     private FirebaseAnalytics mFirebaseAnalytics;
-
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);

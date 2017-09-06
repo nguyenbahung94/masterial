@@ -52,7 +52,7 @@ public class MainActivityZoom extends Activity {
         paintBtn.setText("Zoom");
     }
 
-    public void ButtonClick(View v) {
+    public void buttonClick(View v) {
         view.saveBitmap();
         fin.setImageBitmap(view.getBitmapSaved());
     }
