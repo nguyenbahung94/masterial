@@ -1,1 +1,1 @@
-include ':app', ':tablayoutswipescrolltabs', ':demoviewmodel'
+include ':app', ':tablayoutswipescrolltabs', ':demoviewmodel', ':customstepregister'
